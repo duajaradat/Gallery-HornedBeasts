@@ -5,7 +5,6 @@ import Main from "./components/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Imgdata from "./components/Imgdata.json";
 import SelectedBeast from "./components/SelectedBeast.js";
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -35,11 +34,23 @@ class App extends React.Component {
       show: false,
     });
   };
+
+  //lab04 
+  // function to update  hornedbeast
+
+  formUpdate = addHornedBeast => {
+    this.setState({
+      Imgdata: addHornedBeast
+    })
+  }
+
+
   render() {
     return (
       <div>
         <Header />
         <Main
+          formUpdate={this.formUpdate}
           Imgdata={this.state.Imgdata}
           showPopUp={this.showPopUp}
         />
