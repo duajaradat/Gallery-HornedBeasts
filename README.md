@@ -32,7 +32,15 @@
 
 **Actual time needed to complete: __7 hours___**
 
+### **Feature #4:Filter by Numbers of Horns**
 
+**Estimate of time needed to complete: 5 hours**
+
+**Start time: _5_pm___**
+
+**Finish time: _7_pm___**
+
+**Actual time needed to complete: __2 hours___**
 
 
 
