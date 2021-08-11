@@ -16,6 +16,7 @@ class HornedBeasts extends React.Component {
         this.setState({
             like: this.state.like + 1,
         });
+        this.updateSelected();
     };
     updateSelected = () => {
         this.props.showPopUp(this.props.title);
@@ -25,7 +26,7 @@ class HornedBeasts extends React.Component {
         return (
             <div class="card-columns">
                 <Card style={{ width: "18rem" }}>
-                    <Card.Img src={this.props.img} />
+                    <Card.Img variant="top" src={this.props.img} />
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Text>{this.props.description}</Card.Text>

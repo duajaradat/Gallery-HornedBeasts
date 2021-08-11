@@ -1,6 +1,59 @@
+## Lab03
+
+
+### **Feature #1:Display Image**
+
+**Estimate of time needed to complete: 30 min**
+
+**Start time: _3:30_pm___**
+
+**Finish time: _4:00_pm___**
+
+**Actual time needed to complete: __35 min___**
+
+
+### **Feature #2:Allow users to vote for their fav beast**
+
+**Estimate of time needed to complete: 2 hours**
+
+**Start time: _2_pm___**
+2
+**Finish time: _3:45_pm___**
+
+**Actual time needed to complete: __1:45 hour___**
+
+### **Feature #3:Display a Modal**
+
+**Estimate of time needed to complete: 5 hours**
+
+**Start time: _2_pm___**
+
+**Finish time: _7_pm___**
+
+**Actual time needed to complete: __7 hours___**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bo:otstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

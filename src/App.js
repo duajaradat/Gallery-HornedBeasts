@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import Main from "./components/Main";
+import Main from "./components/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Imgdata from "./components/Imgdata.json";
 import SelectedBeast from "./components/SelectedBeast.js";
@@ -39,8 +39,10 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        {/* <Main Imgdata={this.state.Imgdata} showPopUp={this.showPopUp} />
-        <Main /> */}
+        <Main
+          Imgdata={this.state.Imgdata}
+          showPopUp={this.showPopUp}
+        />
         <SelectedBeast
           Imgdata={this.state.theSelectedOne}
           show={this.state.show}

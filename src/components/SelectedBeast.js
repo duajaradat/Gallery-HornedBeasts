@@ -1,12 +1,12 @@
-import { Modal } from "bootstrap";
+
 import Card from "react-bootstrap/Card";
-import { Button } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
+
 import React from "react";
 
 class SelectedBeast extends React.Component {
-    handleClose = () => {
-        this.props.handleClose();
-    };
+    handleClose = () => this.props.handleClose();
+
     render() {
         return (
             <Modal show={this.props.show} onHide={this.handleClose}>
